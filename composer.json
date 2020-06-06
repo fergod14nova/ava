@@ -1,0 +1,27 @@
+{
+  "name": "vendor_name/ava",
+  "description": "projeto de ava curso profissionalizante",
+  "minimum-stability": "alpha",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "JORGE LUIZ DE ALENCAR",
+      "email": "pro.jorge.rms@gmail.com"
+    }
+  ],
+  "require": {
+    "coffeecode/datalayer": "1.1.4"
+  },
+
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  }
+}

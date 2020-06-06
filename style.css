@@ -1,0 +1,53 @@
+body {
+    background-color: gainsboro;
+}
+
+
+/* IMAGEM DE USUÁRIO */
+.circle-user {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+
+    padding: 1px;
+    margin-right: 8px;
+  }
+  
+  .circle-user img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+  /* IMAGEM DO SLIDE */
+  .circle-slide {
+    background-color: white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    overflow: hidden;
+    position: relative;
+    opacity: 0.5;
+    padding: 5px;
+    margin: 5px;
+
+  }
+
+  .circle-slide img{
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+  /*---------CURSOS inicio abaixo--------------------------*/
+
+
+/*---------CURSOS término acima--------------------------*/
+
