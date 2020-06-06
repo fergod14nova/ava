@@ -6,22 +6,119 @@
 
 	<!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	
+	
+	
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
 
 	<style type="text/css">
-		header{
-			font-family: 'Metal Mania', cursive;
-		}
+		
+		.navbar {
+            font-family: 'Bebas Neue', cursive;
+        }
+		body {
+    background-color: gainsboro;
+}
+
+
+/* IMAGEM DE USUÁRIO */
+.circle-user {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+
+    padding: 1px;
+    margin-right: 8px;
+  }
+  
+  .circle-user img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+  /* IMAGEM DO SLIDE */
+  .circle-slide {
+    background-color: white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    overflow: hidden;
+    position: relative;
+    opacity: 0.5;
+    padding: 5px;
+    margin: 5px;
+
+  }
+
+  .circle-slide img{
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+  /*---------CURSOS inicio abaixo--------------------------*/
+
+
+/*---------CURSOS término acima--------------------------*/
+
+
 	</style>
 </head>
 <body>
-	<header>
-		<h1>Jorge Luiz de Alencar</h1>
-	</header>
-	<section>
-		<p>Meus Projetos</p>
-	</section>
-	<footer>
-		<p>MILLENIUM &copy 2020</p>
-	</footer>
+	<nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <a class="navbar-brand" href="aut.php">
+
+            <!-- imagem do usuário -->
+            <img src="img/icon.png" class="circle-user">
+            
+            <!-- nome do usuário -->
+            Jorge Luiz de Alencar
+        </a>
+
+        <!-- Botão para mostrar menu -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <!-- MENU DE NAVEGAÇÃO -->
+            <ul class="navbar-nav mr-auto mt-2 mt-xl-0">
+                            
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Mensalidades</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Frequencia</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Configurações</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Sair</a>
+                </li>
+            </ul>
+
+            <!-- Formulário de pesquisa -->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+        </nav>
 </body>
 </html>
